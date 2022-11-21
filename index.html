@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+      <div id="lefty"  style=" text-align: center;background-color: rgb(243, 24, 17);height: 10rem;margin: 30px; " >  
+        <h1>Hello!!!</h1>
+      </div>
+
+  <div style="text-align:center ;">
+   
+  <button id="hide" style="background-color: rgb(177, 177, 18);width: 10rem; height: 10rem;" onclick="hide()">Hide</button>
+  <button id="view" style="background-color: rgb(21, 187, 187); width:10rem;height: 10rem;" onclick="view()">Show</button>
+</div>
+</body>
+<script >
+    
+    function hide(){
+    document.getElementById("lefty").style.display = "none";
+    document.getElementById("hide").style.visibility = 'hidden';
+    document.getElementById("view").style.visibility = "visible";
+    }
+    function view(){
+    document.getElementById("lefty").style.display= "block";
+    document.getElementById("view").style.visibility = "hidden";
+    document.getElementById("hide").style.visibility = "visible";
+    }
+    </script>
+</html>
