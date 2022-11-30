@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +23,8 @@
   },
   "dependencies": {
     "aisha": "^1.0.0",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "mongoose": "^6.7.4",
+    "nodemon": "^2.0.20"
   }
 }
